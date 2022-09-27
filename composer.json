@@ -1,0 +1,14 @@
+{
+    "name": "mahdikarami8484/musicapi",
+    "description": "a API for music",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "symfony/routing": "^5.4",
+        "symfony/http-foundation": "^5.4",
+        "firebase/php-jwt": "^6.3"
+    }
+}
